@@ -1,0 +1,363 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">block</custom-type>
+		<custom-type translate="1">kp_size_chart</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_cat</taxonomy>
+		<taxonomy translate="1">portfolio_skill</taxonomy>
+		<taxonomy translate="1">block_cat</taxonomy>
+		<taxonomy translate="1">product_brand</taxonomy>
+	</taxonomies>
+	<admin-texts>
+        <key name="kapee_options">
+            <key name="google-map-api"/> 
+            <key name="promo-bar-message-text"/> 
+            <key name="promo-bar-link-btn-text"/> 
+            <key name="promo-bar-link-btn-url"/> 
+            <key name="mobile-navbar-label-shop"/> 
+            <key name="mobile-navbar-label-wishlist"/> 
+            <key name="mobile-navbar-label-cart"/> 
+            <key name="mobile-navbar-label-account"/> 
+            <key name="mobile-navbar-label-home"/> 
+            <key name="mobile-navbar-label-menu"/> 
+            <key name="mobile-navbar-label-compare"/> 
+            <key name="mobile-navbar-label-filter"/> 
+            <key name="mobile-navbar-label-order"/> 
+            <key name="mobile-navbar-label-order-tracking"/> 
+            <key name="mobile-navbar-label-sidebar"/> 
+            <key name="mobile-navbar-label-blog"/> 
+            <key name="copyright-text"/> 
+            <key name="header-phone-number"/> 
+            <key name="header-email"/> 
+            <key name="header-location"/> 
+            <key name="header-welcome-message"/> 
+            <key name="header-newsletter"/> 
+            <key name="shop-by-categories-title"/> 
+            <key name="search-placeholder-text"/> 
+            <key name="copyright-text"/> 
+            <key name="sale-product-label-percentage-text"/> 
+            <key name="sale-product-label-text"/> 
+            <key name="new-product-label-text"/> 
+            <key name="featured-product-label-text"/> 
+            <key name="outofstock-product-label-text"/> 
+            <key name="products-pagination-load-more-button-text"/> 
+            <key name="products-pagination-finished-message"/> 
+            <key name="product-quickbuy-button-text"/> 
+            <key name="single-product-countdown-tag"/> 
+            <key name="single-product-availability-instock-msg"/> 
+            <key name="single-product-availability-hurry-left-msg"/> 
+            <key name="single-product-availability-outstock-msg"/> 
+			<key name="delivery-return-label"/>
+			<key name="ask-quetion-label"/>
+			<key name="ask-quetion-form-title"/>
+			<key name="estimated-delivery-label"/>
+			<key name="visitor-count-text"/>
+			<key name="trust-badge-label"/>
+            <key name="product-bought-together-title"/> 
+            <key name="free-shipping-amount"/> 
+            <key name="free-shipping-msg"/> 
+            <key name="free-shipping-complete-msg"/> 
+            <key name="login-information"/> 
+            <key name="kapee-404_heading"/> 
+            <key name="kapee-404_content"/> 
+            <key name="kapee-404_btn_txt"/> 
+            <key name="blog-page-title-text"/> 
+            <key name="read-more-text"/> 
+            <key name="blog-pagination-load-more-button-text"/> 
+            <key name="blog-pagination-finished-message"/> 
+            <key name="single-post-title-text"/> 
+            <key name="portfolio-slug"/> 
+            <key name="portfolio-name"/> 
+            <key name="portfolio-singular-name"/> 
+            <key name="portfolio-cat-slug"/> 
+            <key name="portfolio-skill-slug"/> 
+            <key name="portfolio-pagination-load-more-button-text"/> 
+            <key name="portfolio-pagination-finished-message"/> 
+            <key name="portfolio-page-title-text"/> 
+            <key name="newsletter-delay"/> 
+            <key name="newsletter-x-scroll"/> 
+            <key name="newsletter-dont-show"/> 
+            <key name="newsletter-title"/> 
+            <key name="newsletter-tag-line"/> 
+            <key name="cookie-title"/> 
+            <key name="cookie-message-text"/> 
+            <key name="cookie-accept-text"/> 
+            <key name="cookie-see-more-text"/> 
+            <key name="cookie-see-more-link-custom"/> 
+            <key name="cookie-refuse-code"/> 
+        </key>
+    </admin-texts>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">block</custom-type>
+		<custom-type translate="1">kp_size_chart</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_cat</taxonomy>
+		<taxonomy translate="1">portfolio_skill</taxonomy>
+		<taxonomy translate="1">block_cat</taxonomy>
+		<taxonomy translate="1">brand</taxonomy>
+	</taxonomies>
+	<custom-fields>   
+		<custom-field action="translate">_kp_post_format_gallery</custom-field>
+		<custom-field action="translate">_kp_post_format_video</custom-field>
+		<custom-field action="translate">_kp_post_format_audio</custom-field>
+		<custom-field action="translate">_kp_post_format_quote</custom-field>
+		<custom-field action="translate">_kp_post_format_quote_author</custom-field>
+		<custom-field action="translate">_kp_post_format_quote_author_url</custom-field>
+		<custom-field action="translate">_kp_post_format_link_url</custom-field>
+		<custom-field action="translate">_kp_post_format_link_text</custom-field>
+		<custom-field action="translate">_kp_client_name</custom-field>
+		<custom-field action="translate">_kp_website_url</custom-field>
+		<custom-field action="translate">_kp_gallery_images</custom-field>
+		<custom-field action="translate">_kp_product_video</custom-field>
+		<custom-field action="translate">_kp_product_custom_tab_heading</custom-field>
+		<custom-field action="translate">_kp_product_custom_tab_content</custom-field>
+		<custom-field action="translate">_kp_custom_page_title</custom-field>
+    </custom-fields>
+	<shortcodes>
+		<shortcode>
+			<tag>kapee_banner</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>content</attribute>
+				<attribute>button_text</attribute>
+				<attribute type="link" encoding="vc_link">button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_blog_carousel</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_button</tag>
+			<attributes>
+				<attribute>text</attribute>
+				<attribute type="link" encoding="vc_link">button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_contactus</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>description</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_counter</tag>
+			<attributes>
+				<attribute>counter_title</attribute>
+				<attribute>counter_suffix</attribute>
+				<attribute>counter_prefix</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_heading</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>sub_title</attribute>
+				<attribute>tagline</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_info_box</tag>
+			<attributes>
+				<attribute>read_more_text</attribute>
+				<attribute type="link" encoding="vc_link">link</attribute>
+				<attribute>box_title</attribute>
+				<attribute>description</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_instagram</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_instagram</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_list</tag>
+			<attributes>
+				<attribute type="area" encoding="urlencoded_json">list_items</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_menu_block</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="link" encoding="vc_link">link</attribute>
+				<attribute>menu_label_txt</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_menu_item</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="link" encoding="vc_link">link</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_portfolio_carousel</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_progress_bar</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute type="area" encoding="urlencoded_json">bar_items</attribute>
+				<attribute>units</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_social_buttons</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_team_member</tag>
+			<attributes>
+				<attribute>name</attribute>
+				<attribute>designation</attribute>
+				<attribute>description</attribute>
+				<attribute>facebook</attribute>
+				<attribute>twitter</attribute>
+				<attribute>google_plus</attribute>
+				<attribute>linkedin</attribute>
+				<attribute>skype</attribute>
+				<attribute>instagram</attribute>
+				<attribute>youtube</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_testimonials_item</tag>
+			<attributes>
+				<attribute>name</attribute>
+				<attribute>description</attribute>
+				<attribute>designation</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_twitter_feed</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_vertical_menu</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_dokan_vendors</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_wcfm_vendors</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_wcmp_vendors</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_wc_vendors</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_hot_deal_products</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>deal_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_product_brands</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_product_categories</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>view_more_button_text</attribute>
+				<attribute type="link" encoding="vc_link">view_more_button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_product_categories_thumbnail</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>view_more_button_text</attribute>
+				<attribute type="link" encoding="vc_link">view_more_button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_and_categories_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_grid_carousel</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>view_more_button_text</attribute>
+				<attribute type="link" encoding="vc_link">view_more_button_link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_recently_viewed</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_tabs</tag>
+			<attributes>
+				<attribute>tab1_title</attribute>
+				<attribute>tab2_title</attribute>
+				<attribute>tab3_title</attribute>
+				<attribute>tab4_title</attribute>
+				<attribute>tab5_title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_widget</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>kapee_products_with_banner</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>view_more_button_text</attribute>
+				<attribute type="link" encoding="vc_link">view_more_button_link</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+</wpml-config>

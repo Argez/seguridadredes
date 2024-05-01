@@ -1,0 +1,414 @@
+.kapee-skeleton .kapee-megamenu-list > li,
+.kapee-skeleton .products.grid-view .product,
+.kapee-skeleton .products.list-view .product .product-image,
+.kapee-skeleton .products.list-view .product .product-title-rating,
+.kapee-skeleton .products.list-view .product .product-price-buttons,
+.kapee-skeleton .product-gallery-left .woocommerce-product-gallery,
+.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery,
+.kapee-skeleton .product-gallery-horizontal .woocommerce-product-gallery__image a,
+.kapee-skeleton .product-gallery-center .woocommerce-product-gallery__image a,
+.kapee-skeleton .product-gallery-grid .woocommerce-product-gallery__image a,
+.kapee-skeleton .product-sticky-info .woocommerce-product-gallery__image a,
+.kapee-skeleton .single-product-page .summary,
+.kapee-skeleton .single-product-page .woocommerce-tabs,
+.kapee-skeleton .kapee-product-categories-thumbnails .product-category,
+.kapee-skeleton .products-and-categories-box .banner-img,
+.kapee-skeleton .products-and-categories-box .product-category,
+.kapee-skeleton .products-with-banner .banner-image a,
+.kapee-skeleton .kapee-banner .banner-wrapper,
+.kapee-skeleton .kapee-product-categories .product,
+.kapee-skeleton .wpb_revslider_element,
+.kapee-skeleton .kapee-product-brands .product-brand a,
+.kapee-skeleton .widget.kapee-element .product_list_widget li,
+.kapee-skeleton .articles-list.blog-bottom-overlap article,
+.kapee-skeleton .articles-list.blog-center article,
+.kapee-skeleton .articles-list.blog-grid article,
+.kapee-skeleton .articles-list.blog-small-image .entry-thumbnail-wrapper,
+.kapee-skeleton .articles-list.blog-chess .entry-thumbnail-wrapper,
+.kapee-skeleton .articles-list.blog-small-image .entry-content-wrapper,
+.kapee-skeleton .articles-list.blog-chess .entry-content-wrapper,
+.kapee-skeleton .single-post-page,
+.kapee-skeleton .related.posts article,
+.kapee-skeleton article:not(.single-portfolio-page ) .entry-post,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-gallery,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-summary,
+.kapee-skeleton .sidebar-inner,
+.kapee-skeleton .kapee-image-gallery .kapee-gallery,
+.kapee-skeleton .kapee-instagram .instagram-picture,
+.kapee-skeleton .kapee-info-box .info-box-icon,
+.kapee-skeleton .kapee-info-box .info-box-title,
+.kapee-skeleton .kapee-info-box .info-box-description,
+.kapee-skeleton .kapee-team .member-avatar,
+.kapee-skeleton .kapee-team .member-info,
+.kapee-skeleton .kapee-testimonials .testimonial-description,
+.kapee-skeleton .kapee-testimonials .testimonial-avatar,
+.kapee-skeleton .kapee-testimonials .testimonial-meta,
+.kapee-skeleton .wpb_single_image,
+.kapee-skeleton .kapee-dokan-vendors .kapee-store-wrapper,
+.kapee-skeleton .dokan-single-seller .store-wrapper,
+.kapee-skeleton .store-page-wrap .dokan-profile-frame-wrapper,
+.kapee-skeleton .kapee-wcmp-vendors .kapee-store-wrapper,
+.kapee-skeleton .wcmp-store-list-wrap .wcmp-store-list,
+.kapee-skeleton .woocommerce-products-header,
+.kapee-skeleton .kapee-wc-vendors .kapee-store-wrapper,
+.kapee-skeleton .wcv_vendorslist .vendor_list,
+.kapee-skeleton .wcv-header-container,
+.kapee-skeleton .kapee-wcfm-vendors .kapee-store-wrapper,
+.kapee-skeleton .wcfmmp-single-store .store-wrapper,
+.kapee-skeleton .wcfmmp-store-page-wrap .wcfm_banner_area,
+.kapee-skeleton .wcfmmp-store-page-wrap #wcfm_store_header{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+.kapee-skeleton .kapee-megamenu-list li.menu-item > a:before,
+.kapee-skeleton .sub-menu li.menu-item > a:before,
+.kapee-skeleton .products.grid-view .product:before,
+.kapee-skeleton .products.list-view .product .product-image:before,
+.kapee-skeleton .products.list-view .product .product-title-rating:before,
+.kapee-skeleton .products.list-view .product .product-price-buttons:before,
+.kapee-skeleton .product-gallery-left .woocommerce-product-gallery:before,
+.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery:before,
+.kapee-skeleton .product-gallery-horizontal .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-gallery-center .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-gallery-grid .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-sticky-info .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .single-product-page .summary:before,
+.kapee-skeleton .single-product-page .woocommerce-tabs:before,
+.kapee-skeleton .kapee-product-categories-thumbnails .product-category:before,
+.kapee-skeleton .products-and-categories-box .banner-img:before,
+.kapee-skeleton .products-and-categories-box .product-category:before,
+.kapee-skeleton .products-with-banner .banner-image a:before,
+.kapee-skeleton .kapee-banner .banner-wrapper:before,
+.kapee-skeleton .kapee-product-categories .product:before,
+.kapee-skeleton .wpb_revslider_element:before,
+.kapee-skeleton .kapee-product-brands .product-brand a:before,
+.kapee-skeleton .widget.kapee-element .product_list_widget li:before,
+.kapee-skeleton .articles-list.blog-bottom-overlap article:before,
+.kapee-skeleton .articles-list.blog-center article:before,
+.kapee-skeleton .articles-list.blog-grid article:before,
+.kapee-skeleton .articles-list.blog-small-image .entry-thumbnail-wrapper:before,
+.kapee-skeleton .articles-list.blog-chess .entry-thumbnail-wrapper:before,
+.kapee-skeleton .articles-list.blog-small-image .entry-content-wrapper:before,
+.kapee-skeleton .articles-list.blog-chess .entry-content-wrapper:before,
+.kapee-skeleton .single-post-page:before,
+.kapee-skeleton .related.posts article:before,
+.kapee-skeleton article.portfolio:not(.single-portfolio-page ) .entry-post:before,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-gallery:before,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-summary:before,
+.kapee-skeleton .sidebar-inner:before,
+.kapee-skeleton .kapee-image-gallery .kapee-gallery:before,
+.kapee-skeleton .kapee-instagram .instagram-picture:before,
+.kapee-skeleton .kapee-info-box .info-box-icon:before,
+.kapee-skeleton .kapee-info-box .info-box-title:before,
+.kapee-skeleton .kapee-info-box .info-box-description:before,
+.kapee-skeleton .kapee-team .member-avatar:before,
+.kapee-skeleton .kapee-team .member-info:before,
+.kapee-skeleton .kapee-testimonials .testimonial-description:before,
+.kapee-skeleton .kapee-testimonials .testimonial-avatar:before,
+.kapee-skeleton .kapee-testimonials .testimonial-meta:before,
+.kapee-skeleton .wpb_single_image:before,
+.kapee-skeleton .kapee-dokan-vendors .kapee-store-wrapper:before,
+.kapee-skeleton .dokan-single-seller .store-wrapper:before,
+.kapee-skeleton .store-page-wrap .dokan-profile-frame-wrapper:before,
+.kapee-skeleton .kapee-wcmp-vendors .kapee-store-wrapper:before,
+.kapee-skeleton .wcmp-store-list-wrap .wcmp-store-list:before,
+.kapee-skeleton .woocommerce-products-header:before,
+.kapee-skeleton .kapee-wc-vendors .kapee-store-wrapper:before,
+.kapee-skeleton .wcv_vendorslist .vendor_list:before,
+.kapee-skeleton .wcv-header-container:before,
+.kapee-skeleton .kapee-wcfm-vendors .kapee-store-wrapper:before,
+.kapee-skeleton .wcfmmp-single-store .store-wrapper:before,
+.kapee-skeleton .wcfmmp-store-page-wrap .wcfm_banner_area:before,
+.kapee-skeleton .wcfmmp-store-page-wrap #wcfm_store_header:before{
+	content: "";
+	display: block;
+	bottom: 0;
+    left: 0;
+	right: 0;
+    top: 0;
+    position: absolute;
+	width: 100%;
+	z-index:5;
+	background-repeat: no-repeat;
+	background-image:linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0),linear-gradient(#f4f4f4 100%,transparent 0)
+}
+.kapee-skeleton .kapee-megamenu-list li.menu-item > a:after,
+.kapee-skeleton .sub-menu li.menu-item > a:after,
+.kapee-skeleton .products.grid-view .product:after,
+.kapee-skeleton .products.list-view .product .product-image:after,
+.kapee-skeleton .products.list-view .product .product-title-rating:after,
+.kapee-skeleton .products.list-view .product .product-price-buttons:after,
+.kapee-skeleton .product-gallery-left .woocommerce-product-gallery:after,
+.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery:after,
+.kapee-skeleton .product-gallery-horizontal .woocommerce-product-gallery__image a:after,
+.kapee-skeleton .product-gallery-center .woocommerce-product-gallery__image a:after,
+.kapee-skeleton .product-gallery-grid .woocommerce-product-gallery__image a:after,
+.kapee-skeleton .product-sticky-info .woocommerce-product-gallery__image a:after,
+.kapee-skeleton .single-product-page .summary:after,
+.kapee-skeleton .single-product-page .woocommerce-tabs:after,
+.kapee-skeleton .kapee-product-categories-thumbnails .product-category:after,
+.kapee-skeleton .products-and-categories-box .banner-img:after,
+.kapee-skeleton .products-and-categories-box .product-category:after,
+.kapee-skeleton .products-with-banner .banner-image a:after,
+.kapee-skeleton .kapee-banner .banner-wrapper:after,
+.kapee-skeleton .kapee-product-categories .product:after,
+.kapee-skeleton .wpb_revslider_element:after,
+.kapee-skeleton .kapee-product-brands .product-brand a:after,
+.kapee-skeleton .widget.kapee-element .product_list_widget li:after,
+.kapee-skeleton .articles-list.blog-bottom-overlap article:after,
+.kapee-skeleton .articles-list.blog-center article:after,
+.kapee-skeleton .articles-list.blog-grid article:after,
+.kapee-skeleton .articles-list.blog-small-image .entry-thumbnail-wrapper:after,
+.kapee-skeleton .articles-list.blog-chess .entry-thumbnail-wrapper:after,
+.kapee-skeleton .articles-list.blog-small-image .entry-content-wrapper:after,
+.kapee-skeleton .articles-list.blog-chess .entry-content-wrapper:after,
+.kapee-skeleton .single-post-page:after,
+.kapee-skeleton .related.posts article:after,
+.kapee-skeleton article.portfolio:not(.single-portfolio-page ) .entry-post:after,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-gallery:after,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-summary:after,
+.kapee-skeleton .sidebar-inner:after,
+.kapee-skeleton .kapee-image-gallery .kapee-gallery:after,
+.kapee-skeleton .kapee-instagram .instagram-picture:after,
+.kapee-skeleton .kapee-info-box .info-box-icon:after,
+.kapee-skeleton .kapee-info-box .info-box-title:after,
+.kapee-skeleton .kapee-info-box .info-box-description:after,
+.kapee-skeleton .kapee-team .member-avatar:after,
+.kapee-skeleton .kapee-team .member-info:after,
+.kapee-skeleton .kapee-testimonials .testimonial-description:after,
+.kapee-skeleton .kapee-testimonials .testimonial-avatar:after,
+.kapee-skeleton .kapee-testimonials .testimonial-meta:after,
+.kapee-skeleton .wpb_single_image:after,
+.kapee-skeleton .kapee-dokan-vendors .kapee-store-wrapper:after,
+.kapee-skeleton .dokan-single-seller .store-wrapper:after,
+.kapee-skeleton .store-page-wrap .dokan-profile-frame-wrapper:after,
+.kapee-skeleton .kapee-wcmp-vendors .kapee-store-wrapper:after,
+.kapee-skeleton .wcmp-store-list-wrap .wcmp-store-list:after,
+.kapee-skeleton .woocommerce-products-header:after,
+.kapee-skeleton .kapee-wc-vendors .kapee-store-wrapper:after,
+.kapee-skeleton .wcv_vendorslist .vendor_list:after,
+.kapee-skeleton .wcv-header-container:after,
+.kapee-skeleton .kapee-wcfm-vendors .kapee-store-wrapper:after,
+.kapee-skeleton .wcfmmp-single-store .store-wrapper:after,
+.kapee-skeleton .wcfmmp-store-page-wrap .wcfm_banner_area:after,
+.kapee-skeleton .wcfmmp-store-page-wrap #wcfm_store_header:after{
+	content :"";
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	right: -50%;
+	bottom: -50%;
+	background-image: linear-gradient(90deg,rgba(255,255,255,0) 20%,rgba(255,255,255,0.8) 50%,rgba(255,255,255,0) 80%);
+	animation: skeletonloading 1.5s infinite;
+	z-index:6;
+}
+@keyframes skeletonloading{
+	0%{transform:skewX(-45deg) translateX(-80%)}to{transform:skewX(-45deg) translateX(80%)} 
+}
+.kapee-skeleton .kapee-megamenu-list li.menu-item > a span,
+.kapee-skeleton .sub-menu li.menu-item > a span,
+.kapee-skeleton .products.grid-view .product > div,
+.kapee-skeleton .products.list-view .product .product-image > *,
+.kapee-skeleton .products.list-view .product .product-title-rating > *,
+.kapee-skeleton .products.list-view .product .product-price-buttons > *,
+.kapee-skeleton .product-gallery-left .woocommerce-product-gallery > *,
+.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery > *,
+.kapee-skeleton .product-gallery-horizontal .woocommerce-product-gallery__image a > *,
+.kapee-skeleton .product-gallery-center .woocommerce-product-gallery__image a > *,
+.kapee-skeleton .product-gallery-grid .woocommerce-product-gallery__image a > *,
+.kapee-skeleton .product-sticky-info .woocommerce-product-gallery__image a > *,
+.kapee-skeleton .single-product-page .summary > *,
+.kapee-skeleton .single-product-page .woocommerce-tabs > *,
+.kapee-skeleton .kapee-product-categories-thumbnails .product-category > *,
+.kapee-skeleton .products-and-categories-box .banner-img > *,
+.kapee-skeleton .products-and-categories-box .product-category > *,
+.kapee-skeleton .products-with-banner .banner-image a > *,
+.kapee-skeleton .kapee-banner .banner-wrapper > *,
+.kapee-skeleton .kapee-product-categories .product > *,
+.kapee-skeleton .wpb_revslider_element > *,
+.kapee-skeleton .kapee-product-brands .product-brand a > *,
+.kapee-skeleton .widget.kapee-element .product_list_widget li > *,
+.kapee-skeleton .articles-list.blog-bottom-overlap article > *,
+.kapee-skeleton .articles-list.blog-center article > *,
+.kapee-skeleton .articles-list.blog-grid article > *,
+.kapee-skeleton .articles-list.blog-small-image .entry-thumbnail-wrapper > *,
+.kapee-skeleton .articles-list.blog-chess .entry-thumbnail-wrapper > *,
+.kapee-skeleton .articles-list.blog-small-image .entry-content-wrapper > *,
+.kapee-skeleton .articles-list.blog-chess .entry-content-wrapper > *,
+.kapee-skeleton .single-post-page > *,
+.kapee-skeleton .related.posts article > *,
+.kapee-skeleton article.portfolio:not(.single-portfolio-page ) .entry-post > *,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-gallery > *,
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-summary > *,
+.kapee-skeleton .sidebar-inner > *,
+.kapee-skeleton .kapee-image-gallery .kapee-gallery > *,
+.kapee-skeleton .kapee-instagram .instagram-picture > *,
+.kapee-skeleton .kapee-info-box .info-box-icon > *,
+.kapee-skeleton .kapee-info-box .info-box-title > *,
+.kapee-skeleton .kapee-info-box .info-box-description > *,
+.kapee-skeleton .kapee-team .member-avatar > *,
+.kapee-skeleton .kapee-team .member-info > *,
+.kapee-skeleton .kapee-testimonials .testimonial-description > *,
+.kapee-skeleton .kapee-testimonials .testimonial-avatar > *,
+.kapee-skeleton .kapee-testimonials .testimonial-meta > *,
+.kapee-skeleton .wpb_single_image > *,
+.kapee-skeleton .kapee-dokan-vendors .kapee-store-wrapper > *,
+.kapee-skeleton .dokan-single-seller .store-wrapper > *,
+.kapee-skeleton .store-page-wrap .dokan-profile-frame-wrapper > *,
+.kapee-skeleton .kapee-wcmp-vendors .kapee-store-wrapper > *,
+.kapee-skeleton .wcmp-store-list-wrap .wcmp-store-list > *,
+.kapee-skeleton .woocommerce-products-header > *,
+.kapee-skeleton .kapee-wc-vendors .kapee-store-wrapper > *,
+.kapee-skeleton .wcv_vendorslist .vendor_list > *,
+.kapee-skeleton .wcv-header-container > *,
+.kapee-skeleton .kapee-wcfm-vendors .kapee-store-wrapper > *,
+.kapee-skeleton .wcfmmp-single-store .store-wrapper > *,
+.kapee-skeleton .wcfmmp-store-page-wrap .wcfm_banner_area > *,
+.kapee-skeleton .wcfmmp-store-page-wrap #wcfm_store_header > * {
+    visibility: hidden;
+    opacity: 0;
+}
+.kapee-skeleton .kapee-megamenu-list li.menu-item > a:before,
+.kapee-skeleton .sub-menu li.menu-item > a:before {
+	height: calc(100% - 0px);
+    background-size: 100% 20px;
+    background-position: 5px 80%;
+}
+.kapee-skeleton .products.grid-view .product:not(.product-category):before {
+    background-size: calc(100% - 30px) calc(100% - 134px),30% 12px,85% 18px,35% 20px,48% 22px;
+    background-position: 15px 15px, 15px calc((100% - 119px) + 24px), 15px calc((100% - 119px) + 47px), 15px calc((100% - 119px) + 74px), 15px calc((100% - 119px) + 104px);
+}
+.kapee-skeleton .products.list-view .product:not(.product-category) .product-image:before {
+    background-size: 100% 100%;
+    background-position: 0 0;
+}
+.kapee-skeleton .products.list-view .product:not(.product-category) .product-title-rating:before{
+    background-size: 25% 14px,85% 20px,22% 22px,35% 15px,55% 15px,65% 15px,50% 15px;
+    background-position: 0 0,0 22px,0 50px,0 92px,0 117px,0 145px,0 175px;
+}
+.kapee-skeleton .products.list-view .product:not(.product-category) .product-price-buttons:before{
+    background-size: 65% 24px,50% 38px,60% 20px,60% 20px;
+    background-position: 0 0,0 34px,0 85px,0 119px;	
+}
+.kapee-skeleton .product-gallery-horizontal .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-gallery-center .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-gallery-grid .woocommerce-product-gallery__image a:before,
+.kapee-skeleton .product-sticky-info .woocommerce-product-gallery__image a:before{
+	background-size: 100% 100%;
+    background-position: 0 0;
+}
+@media (min-width:768px){
+	.kapee-skeleton .product-gallery-left .woocommerce-product-gallery:before {
+		background-size: calc(100% - 130px) 100%,115px 23.5%,115px 23.5%,115px 23.5%,115px 23.5%;
+		background-position: 130px 0,0 0,0 33%,0 66%,0 100%;
+	}
+}
+@media (min-width:640px){
+	.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery:before {
+		background-size: 100% 80%,23% 18.5%,23% 18.5%,23.5% 18.5%,23.7% 18.5%;
+		background-position: 0 0,0 100%,33% 100%,66% 100%,100% 100%;
+	}
+}
+@media (min-width:640px) and (max-width:767px){
+	.kapee-skeleton .product-gallery-left .woocommerce-product-gallery:before,
+	.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery:before {
+		background-size: 100% 80%,23% 18.5%,23% 18.5%,23.5% 18.5%,23.7% 18.5%;
+		background-position: 0 0,0 100%,33% 100%,66% 100%,100% 100%;
+	}
+}
+@media (max-width:639px){
+	.kapee-skeleton .product-gallery-left .woocommerce-product-gallery:before,
+	.kapee-skeleton .product-gallery-bottom .woocommerce-product-gallery:before {
+		background-size: 100% 100%;
+		background-position: 0 0;
+	}
+}
+.kapee-skeleton .single-product-page .summary:before {
+    min-height: 590px;
+    background-size: 70% 16px,15% 25px,70% 22px,20% 18px,34% 30px,40% 15px,75% 14px,65% 14px,75% 14px,28% 67px,40% 30px,40% 30px,22% 20px,25% 45px,25% 45px,50% 30px;
+    background-position: 0 0,100% 0,0 25px,0 55px,0 90px,0 130px,0 163px,0 194px,0 225px,0 265px,0 365px,0 417px,0 486px,0 530px,160px 530px,0 585px;
+}
+.kapee-skeleton .single-product-page .woocommerce-tabs:before {
+    min-height: 275px;
+    background-size: 120px 30px,225px 30px,100px 30px,100% 2px,100% 15px,100% 15px,100% 15px,80% 15px;
+    background-position: 0 0,135px 0,380px 0,0 50px,0 75px,0 125px,0 175px,0 225px;
+}
+.kapee-skeleton .products .product-category:before {
+    background-size: calc(100% - 30px) calc(100% - 30px);
+    background-position: 15px 15px;
+}
+.kapee-skeleton .kapee-product-categories-thumbnails .product-category:before {
+    background-size: calc(100% - 10px) calc(100% - 35px), calc(100% - 10px) 17px;
+    background-position: 0 0, 0 calc((100% - 35px) + 32px);
+}
+.kapee-skeleton .widget.kapee-element .product_list_widget li:before {
+	background-size: 62px calc(100% - 15px), calc(100% - 77px) 17px, 22% 20px, 45% 18px;
+    background-position: 0 0, 77px 0,77px 24px,77px 50px;
+}
+.kapee-skeleton .articles-list.blog-bottom-overlap article:before,
+.kapee-skeleton .articles-list.blog-center article:before {
+    padding-top: calc(56.25% + 240px);
+    background-size: 100% calc(100% - 240px),15% 20px,60% 30px,40% 20px,100% 50px,20% 20px;
+    background-position: 0 0,50% calc(100% - 205px),50% calc(100% - 165px),50% calc(100% - 130px),0 calc(100% - 55px),50% calc(100% - 15px);
+}
+.kapee-skeleton .articles-list.blog-grid article:before,
+.kapee-skeleton .related.posts article:before {
+    padding-top: calc(56.25% + 240px);
+    background-size: calc(100% - 30px) calc(100% - 240px),15% 20px,60% 30px,40% 20px,calc(100% - 30px) 50px,20% 20px;
+    background-position: 15px 0,50% calc(100% - 205px),50% calc(100% - 165px),50% calc(100% - 130px),15px calc(100% - 55px),50% calc(100% - 15px);
+}
+.kapee-skeleton .articles-list.blog-small-image .entry-thumbnail-wrapper:before,
+.kapee-skeleton .articles-list.blog-chess .entry-thumbnail-wrapper:before{
+	background-size: 100% 100%;
+    background-position: 0 0;
+}
+.kapee-skeleton .articles-list.blog-small-image .entry-content-wrapper:before,
+.kapee-skeleton .articles-list.blog-chess .entry-content-wrapper:before{
+	background-size: 25% 16px, 85% 25px, 75% 18px, 90% 60px, 30% 15px;
+    background-position: 50% 0, 50% 30px, 50% 67px, 50% 115px, 50% 200px;
+}
+.kapee-skeleton .single-post-page:before{
+	background-size: 15% 20px,75% 30px,40% 20px, 100% 23%, 100% 18px, 100% 18px, 100% 18px, 100% 18px, 60% 18px;
+    background-position: 50% 0, 50% 35px, 50% 82px, 0 130px, 0 29%, 0 31%, 0 33%, 0 35%, 0 37%;
+}
+.kapee-skeleton .sidebar-inner:before {
+    height: 640px;
+    background-size: 100% 35px,75% 20px,55% 20px,80% 20px,55% 20px,65% 20px,50% 20px,100% 35px,75% 20px,55% 20px,80% 20px,55% 20px,65% 20px,50% 20px;
+    background-position: 0 10px,0 65px,0 105px,0 145px,0 185px,0 225px,0 265px,0 325px,0 380px,0 420px,0 460px,0 500px,0 540px,0 580px;
+}
+.kapee-skeleton .kapee-image-gallery .kapee-gallery:before{
+	background-size: calc(100% - 15px) calc(100% - 15px);
+    background-position: 15px 0;
+}
+.kapee-skeleton .portfolios-list .entry-post:before,
+.kapee-skeleton .kapee-image-gallery a:before{
+	background-size: 100% 100%;
+    background-position: 0 0;
+}
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-gallery:before,
+.kapee-skeleton .articles-list.blog-grid.blog-grid-gradient-overlay article:before{
+	background-size: calc(100% - 30px) 100%;
+    background-position: 15px 0;
+}
+.kapee-skeleton article:not(.single-portfolio-page ) .entry-post,
+.kapee-skeleton .kapee-dokan-vendors .kapee-store-wrapper,
+.kapee-skeleton .dokan-single-seller .store-wrapper,
+.kapee-skeleton .kapee-wcmp-vendors .kapee-store-wrapper,
+.kapee-skeleton .wcmp-store-list-wrap .wcmp-store-list,
+.kapee-skeleton .kapee-wc-vendors .kapee-store-wrapper,
+.kapee-skeleton .kapee-wcfm-vendors .kapee-store-wrapper,
+.kapee-skeleton .wcfmmp-single-store .store-wrapper {
+	box-shadow: none !important;
+}
+.kapee-skeleton article.single-portfolio-page .portfolio-entry-summary:before{
+	background-size: 80% 22px, 90% 15px, 80% 15px, 86% 15px, 75% 15px, 40% 45px;
+    background-position: 15px 0, 15px 60px, 15px 90px, 15px 120px, 15px 150px, 15px 230px;
+}
+.kapee-skeleton .kapee-testimonials .testimonial-meta:before{
+	background-size: 50% 15px,35% 15px;
+    background-position: 50% 0, 50% 25px;
+}
+.kapee-skeleton .image-middle-center .testimonial-description:before{
+	color:#f4f4f4 !important;
+}
